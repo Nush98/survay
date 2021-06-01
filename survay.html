@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survay</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .black{
+          font-weight: bold;
+      }
+      span{
+          color: red;
+      }
+      .small{
+          color: rgb(85, 78, 69);
+          font-size: small;
+      }
+      .back{
+          background-color: blanchedalmond;
+          
+      }
+    </style>
+</head>
+<body>
+    <form>
+<div >
+    <p class="black">Name<span>*</span></p>
+    <input type="text" name="first" id="first" required>
+    <input type="text" name="last" id="last" required><br>
+    <label for="first" class="small">First</label><span style="padding-left: 155px;"></span>
+    <label for="last" class="small">Last</label>
+</div>    
+<div>
+    <p class="black">Email<span>*</span></p>
+    <label for="email"></label>
+    <input type="email" name="email" id="email" style="width: 350px;" required>
+</div>
+<div>
+    <p class="black">Your Experience<span>*</span></p>
+    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p class="small">Overall how would you rate your experience with us?</p>
+</div>
+<div>
+<p class="black">How satisfiod are you with<span>*</span></p>
+<table>
+    <tr >
+        <td> </td>
+        <td class="small" style="padding-left: 30px;"> very unsatisfied</td>
+        <td class="small" style="padding-left: 30px;">Unsatiesfied </td>
+        <td class="small" style="padding-left: 30px;"> Neutral</td>
+        <td class="small" style="padding-left: 30px;"> Satiesfied</td>
+        <td class="small" style="padding-left: 30px;"> Very Satiesfied</td>
+
+    </tr>
+    <tr class="back">
+        <td class="small">Purchase</td>
+        <td style="padding-left: 40px;"><input type="radio" name="pur" id="" ><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="pur" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="pur" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="pur" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="pur" id=""><label for=""></label></td>
+    </tr>
+    <tr>
+        <td class="small">Service</td>
+        <td style="padding-left: 40px;"><input type="radio" name="ser" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="ser" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="ser" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="ser" id=""><label for=""></label></td>
+        <td style="padding-left: 40px;"><input type="radio" name="ser" id=""><label for=""></label></td>
+    </tr>
+    <tr class="back">
+        <td class="small">Company Overal</td>
+        <td style="padding-left: 40px;"><input type="radio" name="com" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="com" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="com" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="com" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="com" id=""></td>
+    </tr>
+</table>
+</div>
+<div>
+<p class="black">How likely are you to<span>*</span></p>
+<table>
+    <tr>
+        <td> </td>
+        <td class="small" style="padding-left: 30px;"> very Unlkely</td>
+        <td class="small" style="padding-left: 30px;">Unlkely </td>
+        <td class="small" style="padding-left: 30px;"> Neutral</td>
+        <td class="small" style="padding-left: 30px;"> Likely</td>
+        <td class="small" style="padding-left: 30px;"> Very Likely</td>
+
+    </tr>
+    <tr class="back">
+        <td class="small">Buy from us again</td>
+        <td style="padding-left: 40px;"><input type="radio" name="by" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="by" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="by" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="by" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="by" id=""></td>
+    </tr>
+    <tr>
+        <td class="small">Recommend our<br>product to other</td>
+        <td style="padding-left: 40px;"><input type="radio" name="rec" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="rec" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="rec" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="rec" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="rec" id=""></td>
+    </tr>
+    <tr class="back">
+        <td class="small">Recommend our<br>company to other</td>
+        <td style="padding-left: 40px;"><input type="radio" name="op" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="op" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="op" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="op" id=""></td>
+        <td style="padding-left: 40px;"><input type="radio" name="op" id=""></td>
+    </tr>
+</table>
+</div>
+<div>
+<p class="black">Additional comment or suggetion</p>
+<textarea name="" id="" cols="40" rows="6"></textarea><br>
+</div>
+<input type="submit" value="submit" onsubmit="submit">
+
+ </form>   
+</body>
+</html>
